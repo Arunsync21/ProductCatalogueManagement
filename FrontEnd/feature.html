@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/JS/index.js"></script>
+    <script src="JS/feature.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!--menu item-->
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        <span class="icon"><img src="/Images/category.svg" alt="category" width="20"></span>
+                        <span class="item">Category</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="productType.html">
+                        <span class="icon"><img src="/Images/product-type.svg" alt="producttype" width="20"></span>
+                        <span class="item">Product Type</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="feature.html" class="active">
+                        <span class="icon"><img src="/Images/feature.svg" alt="feature" width="20"></span>
+                        <span class="item">Feature</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="product.html">
+                        <span class="icon"><img src="/Images/open-box.svg" alt="product" width="20"></span>
+                        <span class="item">Products</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Content Section -->
+        <div id="content-section" class="section">
+            <!-- Main content -->
+            <div class="content" style="height: 40px; width: (calc(100% - 225px)); background-color: #f4fbff;">
+                <button onclick="addFeature()" style="float: right;" class="add-button">Add Feature</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
